@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=Encode+Sans+SC:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Special+Gothic+Expanded+One&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: white;
+    font-family: poppins, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sub-titles {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: tomato;
+    margin: 0 0 0 10%;
+    padding-top: 30px;
+}
+
+#header {
+    width: 100%;    
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url('images/Trans.png');
+}
+.head{
+    padding: 10px 10%;
+}
+.logo {
+    text-align: center;
+    margin-left: 30px;
+    width: 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    padding: 10px;
+    text-align: right;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+} 
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+nav ul li a:hover {
+    color: tomato;
+    transition: all 300ms ease;
+}
+nav ul li a.active {
+    color: rgba(77, 94, 77, 0.363);
+    transition: all 300ms ease;
+}
+.text-header {
+    font-size: 15px;
+    margin-top: 20%;
+    font-family: "Special Gothic Expanded One", sans-serif;    
+}
+.text-header h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+.name {
+    color: tomato;
+}
+
+#about-Me {
+    padding: 20px 0;
+    margin-top: 100px;
+    color: white;
+    height: 100vh;
+    width: 100%;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    text-wrap: wrap;
+    margin-top: 150px;  
+}
+.sub-title {
+    font-family: "Outfit", sans-serif; 
+    font-size: 50px; 
+    color: tomato; 
+    margin-bottom: 20px
+}
+.column-1 {
+    flex-basis: 35%;   
+}
+.column-1 img {
+    width: 80%;
+    border-radius: 40px;
+    background-color: rgba(77, 94, 77, 0.363);
+    margin-left: 30%;
+}
+.column-2 {
+    flex-basis: 60%;
+    padding-left: 20px;
+    margin: 0 90px;
+}
+.para-1 {
+    font-family: "Outfit", sans-serif;
+    text-align: justify;
+    font-size: 23px;
+    text-indent: 30px;
+}
+.btn-1 {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    border: 2px solid white;
+    background-color: rgba(77, 94, 77, 0.363);
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+.btn-1:hover {
+    background-color: tomato;
+    color: white;
+    transition: all 300ms ease;
+}
+.column-1 img:hover {
+    transform: scale(1.1);
+    transition: all 300ms ease;
+}
+
+#info {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px 0;
+    font-size: large;
+}
+.info-level {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.btn-info { 
+    font-weight: 550; 
+    padding: 10px; 
+    width: 5cm; 
+    border-radius: 2rem; 
+    border: 2px solid white; 
+    background-color: rgba(77, 94, 77, 0.363); 
+    color: black; 
+    margin: 20px auto; 
+    text-align: center; 
+    font-size: 17px; 
+    display: block; 
+} 
+.btn-info:hover { 
+    background-color: lightslategray; 
+    color: white; 
+    transition: all 300ms ease; 
+} 
+.column-2 img:hover { 
+    transform: scale(1.1); 
+    transition: all 300ms ease; 
+} 
+.Project:hover { 
+    transform: scale(1.1); 
+    transition: all 300ms ease; 
+}
+.information, .Hobbies, .Skills, .Education-1 {
+
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px auto;
+}
+.info-text {
+    padding-left: 15px;
+}
+.info-name  {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px; 
+}
+.text-header {
+    margin-top: 15%;
+    padding-left: 100px;
+    font-size: 30px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+.name {
+    color: tomato;
+}
+
+#Education { 
+    width: 100%; 
+    height: 100vh; 
+    margin: 25% 0;
+    align-items: center; 
+    color: black; 
+}  
+.school-levels { 
+    display: flex; 
+    justify-content: space-between; 
+    align-content: center; 
+    margin: 100px 8%; 
+} 
+.Primary, .Secondary, .Tertiary { 
+    width: 400px; 
+    height: 375px;
+    border: 2px; 
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px; 
+    background-color: rgba(77, 94, 77, 0.363); 
+} 
+.Primary img, .Secondary img, .Tertiary img { 
+    width: 100%; 
+    height: 350px; 
+    transition: all 300ms ease; 
+    } 
+.Primary-text, .Secondary-text, .Tertiary-text { 
+    width: 400px;
+    border: 2px; 
+    font-size: 15px;
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px; 
+    background-color: rgba(112, 111, 111, 0.678);
+} 
+.aral { 
+    padding: 10px; 
+    text-align: justify; 
+}
+ 
+#Projects { 
+    width: 100%; 
+    height: 100vh; 
+    align-items: center; 
+    color: black; 
+} 
+.sub-title-2 { 
+    font-family: "Outfit", sans-serif; 
+    color: white; 
+    font-size: 50px; 
+    margin-left: 10%; 
+} 
+.Future-Projects { 
+    display: flex; 
+    justify-content: space-between; 
+    margin: 50px 10%; 
+    text-align: center; 
+} 
+.Project { 
+    width: 300px; 
+    height: 226px; 
+    border: 2px; 
+    border-top-right-radius: 15px; 
+    border-top-left-radius: 15px; 
+    background-color: rgba(77, 94, 77, 0.363);
+} 
+.Project img { 
+    width: 75%; 
+    height: 200px; 
+    margin: 0 auto; 
+} 
+.Project-text { 
+    width: 300px; 
+    height: 380px; 
+    border: 2px; 
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px; 
+    background-color: rgba(112, 111, 111, 0.678); 
+    color: white;
+    text-align: center;
+} 
+.text { 
+    text-indent: 30px; 
+    padding: 10px; 
+    text-align: justify; 
+    color: white;
+} 
+.project-title { 
+   text-align: left;
+   padding-left: 25px;
+   padding-top: 10PX;
+}
+.btn-2 { 
+    font-weight: 550; 
+    padding: 10px; 
+    width: 5cm; 
+    border-radius: 2rem; 
+    border: 2px solid white; 
+    background-color: rgba(77, 94, 77, 0.363); 
+    color: white; 
+    margin-top: 5px; 
+    text-align: center; 
+    font-size: 17px; 
+} 
+.btn-2:hover { 
+    background-color: tomato; 
+    color: white; 
+    transition: all 300ms ease; 
+} 
+.column-2 img:hover { 
+    transform: scale(1.1); 
+    transition: all 300ms ease; 
+} 
+.Project:hover { 
+    transform: scale(1.1); 
+    transition: all 300ms ease; 
+}
+
+#contact { 
+    width: 100%; 
+    height: 50vh; 
+    align-items: center;  
+    background-color: black;
+    color: white;       
+    
+}
+.contact-info { 
+    display: inline-flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 23%;
+    margin-top: 50px;
+
+}
+.fa-facebook, .fa-instagram, .fa-github, .fa-linkedin { 
+    font-size: 35px; 
+    color: white; 
+    margin: 0 20px; 
+}
+.Email {
+    color: white;
+    text-decoration: none;
+}
+
+#footer {
+    width: 100%;
+    height: 5vh;
+}
+.footer-content {
+    text-align: center;
+}
